@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  border: 1px solid red;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  /*Flex */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.container > *{
+  border: 1px solid blue;
+}
+
+footer {
+  background-color: rgb(156, 156, 156);
+}
+
+main {
+  background-color: rgb(0, 139, 139);
+  flex-grow: 1;
+}
+
+header {
+  background-color: rgb(100, 149, 237 );
+}
