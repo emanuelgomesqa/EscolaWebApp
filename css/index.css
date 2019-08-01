@@ -3,30 +3,29 @@
   padding: 0;
 }
 
-.container{
-  border: 1px solid red;
+.meu-container{
+  border: 1px solid blue;
   width: 80%;
-  height: 100%;
-  margin: 0 auto;
+  min-height: 100vh;
+  margin: 0 auto ;
+  padding-right: 0;
+  padding-left: 0;
+
   /*Flex */
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
 }
-
 .container > *{
-  border: 1px solid blue;
+  border: 1px solid green;
 }
 
-footer {
-  background-color: rgb(156, 156, 156);
+footer{
+  background-color:#8B8682;
 }
-
-main {
-  background-color: rgb(0, 139, 139);
-  flex-grow: 1;
+header{
+  background-color: #B22222;
 }
-
-header {
-  background-color: rgb(100, 149, 237 );
+main{
+  background-color: #FFFFFF;
+  flex-grow: 2;
 }
